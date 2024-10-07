@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
 
         // Step 3: Pass lambda to adapter
-        recyclerView.adapter = NumberDisplayAdapter(numbers)
+        recyclerView.adapter = NumberDisplayAdapter(numbers, callBack)
 
 
     }
